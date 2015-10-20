@@ -3,9 +3,9 @@ nav {
 	height: 100%;
 
 	background-color: black;
-	color: #EEE;
+	color: #FFF;
 
-	opacity: 0.65;
+	opacity: 0.75;
 }
 
 nav > h1 {
@@ -13,7 +13,7 @@ nav > h1 {
 	margin: 0;
 	padding: 20px;
 
-	font-weight: 400;
+	font-weight: 300;
 	letter-spacing: 2px;
 }
 
