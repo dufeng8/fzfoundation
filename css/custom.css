@@ -6,7 +6,8 @@
 }
 
 p {
-	font-size: 18px;
+	font-size: 20px;
+	font-weight: 300;
 }
 
 #logo-text {
@@ -18,4 +19,8 @@ p {
 
 #logo-text:hover {
 	color: #FF2A21;
+}
+
+.btn {
+	background-color: #aaa;
 }
