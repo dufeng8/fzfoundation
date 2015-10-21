@@ -8,3 +8,14 @@
 p {
 	font-size: 18px;
 }
+
+#logo-text {
+	font-weight: bold;
+	webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+#logo-text:hover {
+	color: #FF2A21;
+}
