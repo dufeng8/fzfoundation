@@ -1,10 +1,8 @@
 .navbar {
+	margin-bottom: 0;
+
 	background-color: #222;
 	background-image: none;
-}
-
-.jumbotron {
-	padding-top: 6em;
 }
 
 p {
