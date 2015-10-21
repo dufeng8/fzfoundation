@@ -9,22 +9,64 @@
   <link rel="shortcut icon" type="image/png" href="favicon.png">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/nav.css">
-  <link rel="stylesheet" href="css/slit-style.css">
-  <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+  <!-- link rel="stylesheet" href="css/normalize.css" -->
+  <!-- link rel="stylesheet" href="css/main.css" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- link rel="stylesheet" href="css/nav.css" -->
 </head>
 <body>
-	<nav>
-		<h1>FengZheng Cultural Foundation</h1>
-		<ul>
-			<li><a href="./index.html">About</a></li>
-			<li><a href="./scholarship.html">Scholarship</a></li>
-			<li><a href="./charities.html">Charities</a></li>
-		</ul>
-	</nav>
+	<!--
+  <nav>
+    <h1>FengZheng Cultural Foundation</h1>
+    <ul>
+      <li><a href="./index.html">About</a></li>
+      <li><a href="./scholarship.html">Scholarship</a></li>
+      <li><a href="./charities.html">Charities</a></li>
+    </ul>
+  </nav>
+  -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">FengZheng Cultural Foundation</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="./index.html">About</a></li>
+            <li><a href="./scholarship.html">Scholarship</a></li>
+            <li><a href="./charities.html">Charities</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>About Us</h1>
+        <p>FengZheng Cultural Foundation (FZCF) established in 2012, is a Texas-registered charity organization with IRS 501(c)3 tax exempt status. The mission of FZCF is to promote education equality and enhance education access for students and diverse families throughout the world.</p>
+        <p>Currently, we are focusing on sponsoring charitable projects and organizations that benefit migrant children and their families. In China, the population of migrant children (0-17) has reached 35.81 million. Among them, 2.05 million school-age children cannot attend public schools. Migrant schools serve these children's need for basic education. There is a shortage of resources,teachers, and systematic support in these migrant schools. The migrant children’s educational needs can’t be sufficiently met. They need to have access to quality education. Our Foundation have been supporting a few migrant schools by donating funds educational instruments. From time to time, we will sponsor specific fund raising projects for these migrant schools.</p>
+        <p><a class="btn btn-primary btn-lg" href="./charities.html" role="button">Learn More</a></p>
+      </div>
+    </div>
+
+    <div class="page-header">
+      <div class="container">
+        <h1>Announcements</h1>
+        <p>Applications are released and due by November 30th.</p>
+        <p>Feng Wantao Scholarship, approved by the FZCF Board of Directors in 2015, supports the mission by providing merit-based scholarships to students with financial needs, in order to encourage learning and pursuing human knowledge.</p>
+        <a class="btn btn-primary btn-lg" href="./charities.html" role="button">Apply</a>
+      </div>
+    </div>
   
   <script src="js/vendor/jquery-1.11.3.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
 </body>
 </html>
