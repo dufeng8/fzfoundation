@@ -1,6 +1,8 @@
 .navbar {
 	margin-bottom: 0;
 
+	border-bottom: 4px solid #800000;
+
 	background-color: #222;
 	background-image: none;
 }
@@ -18,7 +20,7 @@ p {
 }
 
 #logo-text:hover {
-	color: #FF2A21;
+	color: #BD0000;
 }
 
 .btn {
@@ -27,4 +29,21 @@ p {
 
 a:hover {
 	text-decoration: none;
+}
+
+.jumbotron > .container {
+	max-width: 600px;
+}
+
+.jumbotron > .container > h1 {
+	font-size: 3em;
+	padding-bottom: 0.6em;
+	margin-bottom: 0.8em;
+	border-bottom: 3px solid #800000;
+	color: #444;
+	text-align: center;
+}
+
+.jumbotron > .container > p {
+	text-align: center;
 }
