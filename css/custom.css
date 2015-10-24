@@ -31,6 +31,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.jumbotron {
+	background-color: #EEE;
+}
+
 .jumbotron > .container {
 	max-width: 600px;
 }
