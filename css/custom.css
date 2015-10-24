@@ -93,3 +93,18 @@ a:hover {
 h1{
 	font-family: Optima, Arial;
 }
+
+.tag-container {
+	width: 100%;
+}
+
+.tag {
+	padding: 1em;
+	padding-left: 1.2em;
+	display: inline-block;
+}
+
+.tag-text {
+	margin: 0;
+	font-family: Optima, Arial;
+}
