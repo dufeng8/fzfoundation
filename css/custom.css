@@ -31,7 +31,6 @@ a:hover {
 	text-decoration: none;
 }
 
-<<<<<<< HEAD
 .jumbotron > .container {
 	max-width: 600px;
 }
@@ -47,7 +46,8 @@ a:hover {
 
 .jumbotron > .container > p {
 	text-align: center;
-=======
+}
+
 @font-face{
 	font-family: Optima;
     src: url(../fonts/optima.ttf);
@@ -55,5 +55,4 @@ a:hover {
 
 h1{
 	font-family: Optima, Arial;
->>>>>>> 5f6d0a9ad5b12d2d4d80557afd054ac4658dffcb
 }
