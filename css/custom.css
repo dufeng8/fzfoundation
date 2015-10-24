@@ -32,6 +32,11 @@ a:hover {
 	text-decoration: none;
 }
 
+.page-header{
+	border-bottom:none;
+	margin-bottom: 50px;
+}
+
 #about-jumbotron{
 	background-image: url("../img/yuhua/p3.JPG");
 	background-repeat: no-repeat;
