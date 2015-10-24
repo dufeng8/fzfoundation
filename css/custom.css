@@ -31,10 +31,18 @@ a:hover {
 	text-decoration: none;
 }
 
+#about-jumbotron{
+	background-image: url("../img/yuhua/p3.JPG");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
 .jumbotron > .container {
 	max-width: 600px;
 	background-color: white;
 	padding: 50px;
+	border-radius: 2px;
+	opacity: 0.90;
 }
 
 .jumbotron > .container > h1 {
