@@ -50,6 +50,7 @@ a:hover {
 }
 
 .jumbotron{
+	background-size: 100%;
 	background-color: #EEE;
 }
 
