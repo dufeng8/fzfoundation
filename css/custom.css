@@ -43,6 +43,15 @@ a:hover {
     background-position: center;
 }
 
+@media screen and (max-width: 970px) {
+	#about-jumbotron {
+		background-size: auto 100%;
+	}
+	#scholarship-jumbotron {
+		background-size: auto 100%;
+	}
+}
+
 #scholarship-jumbotron {
 	background-image: url("../img/scholarship.jpg");
 	background-repeat: no-repeat;
