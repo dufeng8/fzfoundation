@@ -28,3 +28,12 @@ p {
 a:hover {
 	text-decoration: none;
 }
+
+@font-face{
+	font-family: Optima;
+    src: url(fonts/optima.ttf);
+}
+
+h1{
+	font-family: Optima, Arial;
+}
