@@ -39,13 +39,14 @@ a:hover {
 	font-size: 3em;
 	padding-bottom: 0.6em;
 	margin-bottom: 0.8em;
-	border-bottom: 3px solid #800000;
-	color: #444;
+	border-bottom: 3px solid #822020;
 	text-align: center;
+	color: #444;
 }
 
 .jumbotron > .container > p {
 	text-align: center;
+	font-size: 1.5em;
 }
 
 @font-face{
