@@ -1,7 +1,7 @@
 .navbar {
 	margin-bottom: 0;
 
-	border-bottom: 4px solid #B44;
+	border-bottom: 4px solid #822020;
 
 	background-color: #222;
 	background-image: none;
@@ -13,7 +13,7 @@ p {
 }
 
 #logo-text {
-	color: #EEE;
+	color: #DDD;
 	font-weight: bold;
 	webkit-transition: color 0.3s;
 	-moz-transition: color 0.3s;
@@ -21,7 +21,7 @@ p {
 }
 
 #logo-text:hover {
-	color: #F55;
+	color: #FFF;
 }
 
 .btn {
@@ -34,6 +34,12 @@ a:hover {
 
 #about-jumbotron{
 	background-image: url("../img/yuhua/p3.JPG");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scholarship-jumbotron {
+	background-image: url("../img/scholarship.jpg");
 	background-repeat: no-repeat;
     background-position: center;
 }
