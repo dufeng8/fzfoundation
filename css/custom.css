@@ -24,3 +24,7 @@ p {
 .btn {
 	background-color: #aaa;
 }
+
+a:hover {
+	text-decoration: none;
+}
