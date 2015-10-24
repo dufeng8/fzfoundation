@@ -37,6 +37,8 @@ a:hover {
 
 .jumbotron > .container {
 	max-width: 600px;
+	background-color: white;
+	padding: 50px;
 }
 
 .jumbotron > .container > h1 {
