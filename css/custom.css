@@ -1,7 +1,7 @@
 .navbar {
 	margin-bottom: 0;
 
-	border-bottom: 4px solid #800000;
+	border-bottom: 4px solid #B44;
 
 	background-color: #222;
 	background-image: none;
@@ -13,6 +13,7 @@ p {
 }
 
 #logo-text {
+	color: #EEE;
 	font-weight: bold;
 	webkit-transition: color 0.3s;
 	-moz-transition: color 0.3s;
@@ -20,7 +21,7 @@ p {
 }
 
 #logo-text:hover {
-	color: #BD0000;
+	color: #F55;
 }
 
 .btn {
