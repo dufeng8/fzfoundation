@@ -98,40 +98,8 @@ h1{
 	font-family: Optima, Arial;
 }
 
-.tag-container {
-	position: absolute;
-	z-index: 99;
+#myCarousel {
 	width: 100%;
-	top: 30%;
-}
-
-.tag {
-	padding: 1em;
-	padding-left: 1.2em;
-	display: inline-block;
-	background-color: #FFF;
-	opacity: 0.9;
-}
-
-.tag-text {
-	margin: 0;
-	color: #000;
-	font-size: 3em;
-	font-family: Optima, Arial;
-}
-
-@media screen and (max-width: 970px) {
-	.tag-text {
-		font-size: 1.6em;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.tag-text {
-		font-size: 1em;
-	}
-}
-
-.carousel-inner img {
-	width: 100%;
+	max-width: 800px;
+	margin: 4em auto;
 }
